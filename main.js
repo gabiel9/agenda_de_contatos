@@ -15,6 +15,7 @@ form.addEventListener('submit', function (e) {
     linha += `<td>${inputSobrenomeContato.value}</td>`;
     linha += `<td>${inputTelefoneContato.value}</td>`;
     linha += `<td>${inputRedeSocialContato.value}</td>`;
+    linha += `</tr>`
 
     linhas += linha;
 
