@@ -26,4 +26,5 @@ form.addEventListener('submit', function (e) {
     inputSobrenomeContato.value = ' ';
     inputTelefoneContato.value = ' ';
     inputRedeSocialContato.value = ' ';
-})
+    
+});
