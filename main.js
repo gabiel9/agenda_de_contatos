@@ -8,13 +8,11 @@ form.addEventListener('submit', function (e) {
     const inputNomeContato = document.getElementById('nome-contato');
     const inputSobrenomeContato = document.getElementById('sobrenome-contato');
     const inputTelefoneContato = document.getElementById('telefone-conato');
-    const inputRedeSocialContato = document.getElementById('rede-social-contato');
 
     let linha = '<tr>';
     linha += `<td>${inputNomeContato.value}</td>`;
     linha += `<td>${inputSobrenomeContato.value}</td>`;
     linha += `<td>${inputTelefoneContato.value}</td>`;
-    linha += `<td>${inputRedeSocialContato.value}</td>`;
     linha += `</tr>`;
 
     linhas += linha;
@@ -25,6 +23,5 @@ form.addEventListener('submit', function (e) {
     inputNomeContato.value = '';
     inputSobrenomeContato.value = ' ';
     inputTelefoneContato.value = ' ';
-    inputRedeSocialContato.value = ' ';
     
 });

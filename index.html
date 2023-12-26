@@ -16,18 +16,21 @@
             <h1>Agenda de contatos</h1>
         </header>
             <form id="form-lista">
-                <input type="text" id="nome-contato" placeholder="Nome">
-                <input type="text" id="sobrenome-contato" placeholder="Sobrenome">
-                <input type="number" id="telefone-conato" placeholder="Telefone">
-                <input type="text" id="rede-social-contato" placeholder="Rede social">                
-                <button type="submit"> Adicionar</button>
+                <div class="centralizar">
+                    <input type="text" id="nome-contato" placeholder="Nome">
+                    <input type="text" id="sobrenome-contato" placeholder="Sobrenome">
+                    <input type="number" id="telefone-conato" placeholder="Telefone">      
+                </div>        
+                <div id="botao-central">
+                    <button type="submit"> Adicionar</button>
+                </div>
             </form>
         <table>
             <thead>
                 <tr>
                     <th>Nome</th>
+                    <th>Sobrenome</th>
                     <th>Número</th>
-                    <th>Contato <br> Alternativo</th>
                 </tr>
             </thead>
             <tbody id="tbody"></tbody>

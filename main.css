@@ -34,15 +34,29 @@ div {
 }
 
 form {
-    padding: 0 10px;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    width: 100% ;
 }
+
 form input {
     padding: 5px;
+    margin: 5px;    
+    
+}
+
+.centralizar {
+    display: flex;
+}
+
+#botao-central {
+    padding: 10px;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
 }
 
 table {
@@ -73,7 +87,3 @@ th {
     padding: 5px 60px ;
 }
 
-button {
-    padding: 5px;
-    margin: 5px;
-}
