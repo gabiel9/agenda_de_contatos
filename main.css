@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: #03192a;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -24,7 +25,7 @@ header {
 div {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(189, 189, 74);
+    background-color: #042f50;
 }
 
 .container {
@@ -57,6 +58,7 @@ form input {
 
 button {
     padding: 5px;
+    color: black;
 }
 
 table {
@@ -64,7 +66,7 @@ table {
 }
 
 table th {
-    border-bottom: 2px solid #d2d4c8;
+    border-bottom: 2px solid #0b69c8;
     font-size: 15px;
     font-weight: bold;
     padding: 16px;

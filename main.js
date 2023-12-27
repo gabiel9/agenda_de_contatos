@@ -5,6 +5,10 @@ let linhas = ' ';
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    tabelaContato();
+
+});
+function tabelaContato () {
     const inputNomeContato = document.getElementById('nome-contato');
     const inputSobrenomeContato = document.getElementById('sobrenome-contato');
     const inputTelefoneContato = document.getElementById('telefone-conato');
@@ -20,8 +24,8 @@ form.addEventListener('submit', function (e) {
     const corpoTabela = document.getElementById('tbody');
     corpoTabela.innerHTML = linhas;
 
+
     inputNomeContato.value = '';
     inputSobrenomeContato.value = ' ';
     inputTelefoneContato.value = ' ';
-    
-});
+}
