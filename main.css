@@ -12,7 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 270px;
+    font-family: sans-serif;
+}
 
+img {
+    width: 150px;
 }
 
 header {
@@ -41,7 +45,7 @@ form {
 form input {
     padding: 5px;
     margin: 5px;    
-    
+    color: black;
 }
 
 .centralizar {
